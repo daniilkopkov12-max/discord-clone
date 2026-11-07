@@ -1,5 +1,11 @@
 # Discord Clone — Full-Stack WebRTC & Real-Time Messenger 🚀
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/daniilkopkov12-max/discord-clone)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/daniilkopkov12-max/discord-clone)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev/)
+[![WebRTC](https://img.shields.io/badge/WebRTC-P2P%20Voice%20%26%20Video-orange?logo=webrtc)](https://webrtc.org/)
+
 Полноценный, функциональный аналог Discord, созданный с нуля. Включает современный интерфейс, бэкенд на Node.js & TypeScript, базу данных PostgreSQL / SQLite с Prisma ORM, WebSockets (Socket.IO) для мгновенного обмена сообщениями и реакциями, а также **настоящие голосовые и видеозвонки и демонстрацию экрана через WebRTC**.
 
 ![Discord Clone Preview](https://raw.githubusercontent.com/placeholder/discord-preview.png)
