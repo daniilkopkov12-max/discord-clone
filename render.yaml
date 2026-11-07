@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: discord-clone
+    env: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm run build
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: discord-postgres
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PORT
+        value: 10000
+
+databases:
+  - name: discord-postgres
+    plan: free
+    region: frankfurt
+    databaseName: discord
+    user: discord_user
